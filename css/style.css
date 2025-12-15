@@ -1,11 +1,8 @@
-h1 {
-    color: red;
-}
-
 body {
     margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
-/* Header & Footer */
+
 header {
     height: 20%;
     display: flex;
@@ -41,12 +38,18 @@ nav > .nav {
 
 footer {
     background-color: #455F85;
-    height: 10%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+    z-index: 100;
 }
 
 footer > a {
     background-color: #455F85;
-    border-radius: 50px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -55,3 +58,4 @@ footer > a {
     justify-content: center;
     padding: 10px;
 }
+
