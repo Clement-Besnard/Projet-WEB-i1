@@ -7,7 +7,7 @@
     <script type="text/javascript" src="../js/enseignant.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="fetchJSON('../json/enseignant.json')">
     <header>
         <a href="./accueil.html"><img src="../img/logo_efrei.png"></a>
         <nav>
@@ -22,18 +22,14 @@
         <section>
             <div>
                 Filtre par nom
-                <input type="text" name="" id="">
+                <input type="text" id="filter-nom">
             </div>
             <div>
                 Filtre par matière
-                <input type="text" name="" id="">
+                <input type="text" id="filter-matiere">
             </div>
-            <input type="button" value="Recherche" onclick="fetchJSON('../json/enseignant.json')">
         </section>
         <section id="enseignant">
-
-        </section>
-        <section>
 
         </section>
     </section>
