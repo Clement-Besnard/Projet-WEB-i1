@@ -1,0 +1,32 @@
+{
+    "enseignants": [
+        {
+            "nom": "Federico Zalamea",
+            "matières": ["Mathématiques", "Physique"]
+        },
+        {
+            "nom": "Gabriel Morgado",
+            "matières": ["Physique"]
+        },
+        {
+            "nom": "Mondher Maddouri",
+            "matières": ["Data"]
+        },
+        {
+            "nom": "Dina Serhal Fakih",
+            "matières": ["Physique", "Electronique"]
+        },
+        {
+            "nom": "Malika Charrad",
+            "matières": ["Data"]
+        },
+        {
+            "nom": "Cherifa Ben Khelil",
+            "matières": ["Informatique"]
+        },
+        {
+            "nom": "Ziad Adem",
+            "matières": ["Data"]
+        }
+    ]
+}

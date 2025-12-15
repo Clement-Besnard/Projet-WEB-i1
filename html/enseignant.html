@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/enseignant.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,6 +17,26 @@
             <a href="./apropos.html" class="nav">Contact</a>
         </nav>
     </header>
+    <section id="core">
+        <div>Équipe enseignante</div>
+        <section>
+            <div>
+                Filtre par nom
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                Filtre par matière
+                <input type="text" name="" id="">
+            </div>
+            <input type="button" value="Recherche" onclick="fetchJSON('../json/enseignant.json')">
+        </section>
+        <section id="enseignant">
+
+        </section>
+        <section>
+
+        </section>
+    </section>
     <footer>
         <a href="./apropos.html">À propos</a>
     </footer>

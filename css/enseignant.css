@@ -1,0 +1,10 @@
+#core {
+    height: 70%;
+}
+
+
+#Profs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
