@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/salles.css">
+    <title>Salles de permanence</title>
 </head>
 <body>
     <header>
@@ -16,8 +17,56 @@
             <a href="./contact.html" class="nav">Contact</a>
         </nav>
     </header>
+    <h2 class="titre-salles">Salles de permanence</h2>
+    <div class="add-btn-container">
+        <button id="add-permanence-btn" class="add-permanence-btn">Ajouter une permanence</button>
+    </div>
+    <div id="modal-bg" class="modal-bg">
+        <div id="modal-form" class="modal-form">
+            <button id="close-modal" class="close-modal">&times;</button>
+            <form id="permanence-form" class="permanence-form">
+                <h3>Ajouter une permanence</h3>
+                <label>Jour :
+                    <select name="jour" required>
+                        <option value="">--Choisir--</option>
+                        <option>Lundi</option>
+                        <option>Mardi</option>
+                        <option>Mercredi</option>
+                        <option>Jeudi</option>
+                        <option>Vendredi</option>
+                    </select>
+                </label>
+                <label>Heure :
+                    <select name="heure" required>
+                        <option value="">--Choisir--</option>
+                        <option>8h</option>
+                        <option>9h</option>
+                        <option>10h</option>
+                        <option>11h</option>
+                        <option>12h</option>
+                        <option>13h</option>
+                        <option>14h</option>
+                        <option>15h</option>
+                        <option>16h</option>
+                        <option>17h</option>
+                    </select>
+                </label>
+                <label>Salle : <input name="salle" required></label>
+                <label>Professeur : <input name="prof" required></label>
+                <div class="form-btns">
+                    <button type="submit" class="submit-btn">Ajouter</button>
+                    <button type="button" id="cancel-btn" class="cancel-btn">Annuler</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="calendar-container">
+        <table class="calendar" id="calendar-table"></table>
+    </div>
+    <button id="reset-salles-btn" class="reset-salles-btn">Supprimer toutes les permanences</button>
     <footer>
         <a href="./apropos.html">À propos</a>
     </footer>
+    <script src="../js/salles.js"></script>
 </body>
 </html>
