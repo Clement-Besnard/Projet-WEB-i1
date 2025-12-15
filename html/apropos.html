@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/apropos.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <title>Contact - Efrei</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -16,40 +13,12 @@
             <a href="" class="nav">Cours & formation</a>
             <a href="./enseignant.html" class="nav">Équipe enseignante</a>
             <a href="./salle.html" class="nav">Salles</a>
-            <a href="./apropos.html" class="nav">Contact</a>
+            <a href="./contact.html" class="nav">Contact</a>
         </nav>
     </header>
-    <h2>Contact</h2>
-    <div class="contact-container">
-        <div class="map-wrapper">
-            <div id="map"></div>
-        </div>
-        <div class="contact-info">
-            <h3>Efrei Paris</h3>
-            <p><strong>Téléphone :</strong><br>
-            01 46 77 64 00</p>
-            <p><strong>Email :</strong><br>
-            contact@efrei.fr</p>
-            <p><strong>Horaires :</strong><br>
-            Lundi - Vendredi : 8h30 - 18h00</p>
-        </div>
-    </div>
+
     <footer>
         <a href="./apropos.html">À propos</a>
     </footer>
-    <script>
-        // Ajout de la carte
-        var map = L.map('map', { zoomControl: true }).setView([48.789, 2.365], 16);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap'
-        }).addTo(map);
-        L.marker([48.789, 2.363]).addTo(map)
-            .bindPopup('La Maison')
-        L.marker([48.7897, 2.3695]).addTo(map)
-            .bindPopup('La Factory')
-        L.marker([48.79, 2.3683]).addTo(map)
-            .bindPopup('L\'Aquarium')
-    </script>
 </body>
 </html>
