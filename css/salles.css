@@ -1,0 +1,159 @@
+.titre-salles {
+    text-align: center;
+    margin-top: 30px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.add-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 300px 10px auto;
+}
+
+.add-permanence-btn {
+    background:  #005baa;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 28px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+    cursor: pointer;
+    margin-right: 8px;
+}
+.add-permanence-btn:hover {
+    background: #004581;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+table.calendar {
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.calendar th, .calendar td {
+    border: 1px solid #e0e0e0;
+    padding: 10px 18px;
+    text-align: center;
+    font-size: 1em;
+    min-width: 80px;
+}
+.calendar th {
+    background: #005baa;
+    color: #fff;
+    font-weight: 600;
+}
+.calendar td {
+    background: #f7faff;
+}
+.calendar .occupied {
+    background: #b3d4fc;
+    font-weight: bold;
+}
+
+.modal-bg {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.35);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+.modal-form {
+    background: #fff;
+    padding: 32px 36px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+    min-width: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #888;
+    cursor: pointer;
+}
+.permanence-form h3 {
+    margin-bottom: 10px;
+    color: #005baa;
+    text-align: left;
+}
+.permanence-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2px;
+}
+.permanence-form input,
+.permanence-form select {
+    margin-top: 4px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid #c0c0c0;
+    font-size: 1em;
+    background: #f7faff;
+}
+.form-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+.submit-btn {
+    background: #005baa;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background: #004581;
+}
+.cancel-btn {
+    background: #eee;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+.cancel-btn:hover {
+    background: #ddd;
+}
+
+.reset-salles-btn {
+    display: block;
+    margin: 24px auto 100px auto;
+    background: #005baa;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.reset-salles-btn:hover {
+    background: #004581;
+}
