@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/accueil.css">
+    <script src="../js/carrousel.js"></script>
+    <title>Accueil - Efrei</title>
 </head>
 <body>
     <header>
@@ -16,7 +18,64 @@
             <a href="./contact.html" class="nav">Contact</a>
         </nav>
     </header>
-
+    <main>
+        <section id="Accueil">
+            <img src="../img/Accueil.png">
+        </section>
+        <section id="Target">
+            <img src="../img/devise.jpeg">
+            <p>
+                À l’EFREI, nos <span>6000 étudiants</span> bénéficient d’un accompagnement complet vers le monde professionnel. Grâce à un réseau solide de plus de <span>15 000 alumniet à nos partenaires entreprises</span>, chaque étudiant peut développer ses compétences, construire son projet professionnel et saisir des opportunités concrètes de stages, d’alternance et d’emploi.
+                Nous ne nous contentons pas de former des ingénieurs et experts du numérique : nous ouvrons les portes d’un réseau dynamique, propice à l’innovation et à l’insertion réussie dans le marché du travail.
+            </p>
+        </section>
+        <section id="carrousel-section">
+            <div id="carrousel" class="carrousel">
+                <button class="carrousel-arrow left" aria-label="Précédent">&#8592;</button>
+                <div class="carrousel-pages">
+                    <div class="carrousel-page">
+                        <h2>Nos Formations</h2>
+                        <p>Découvrez nos cursus d'ingénieur, bachelors et masters adaptés à tous les profils.</p>
+                        <a href="./formation.html" class="carrousel-btn">Voir les formations</a>
+                    </div>
+                    <div class="carrousel-page">
+                        <h2>Vie étudiante</h2>
+                        <p>Participez à la vie de l'école grâce à plus de 50 associations étudiantes dynamiques !</p>
+                        <a href="./vieetudiante.html">En savoir plus</a>
+                    </div>
+                    <div class="carrousel-page">
+                        <h2>Des professeurs de qualité</h2>
+                        <p>Nos enseignants sont des experts reconnus dans leur domaine, engagés pour votre réussite.</p>
+                        <a href="./enseignant.html">Voir l'équipe enseignante</a>
+                    </div>
+                </div>
+                <button class="carrousel-arrow right" aria-label="Suivant">&#8594;</button>
+            </div>
+        </section>
+        <section>
+            <h1>Découvrir l'école</h1>
+            <div id="events">
+                <div class="event">
+                    <h2>Porte ouvertes</h2>
+                    <p>Samedi 13 décembre</p>
+                    <p>Villejuif | 8h à 18h</p>
+                    <img src="../img/JPO.jpg">
+                </div>
+                <div class="event">
+                    <h2>Porte ouvertes</h2>
+                    <p>Samedi 20 décembre</p>
+                    <p>bordeux | 8h à 18h</p>
+                    <img src="../img/JPO.jpg">
+                </div>
+                <div class="event">
+                    <h2>Porte ouvertes</h2>
+                    <p>Samedi 24 janvier</p>
+                    <p>Villejuif | 8h à 14h</p>
+                    <img src="../img/JPO.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <a href="./apropos.html">À propos</a>
     </footer>
