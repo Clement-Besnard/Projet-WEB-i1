@@ -1,0 +1,52 @@
+[
+  {
+    "nom": "4eSport",
+    "image": "4eSport.png",
+    "description": "L’association de jeux vidéo réunit de nombreux pôles e-sport. Chacun peut y trouver ou proposer son jeu préféré, avec rencontres et compétitions toute l’année."
+  },
+  {
+    "nom": "Art’Efrei",
+    "image": "ArtEfrei.png",
+    "description": "C’est l’association de découverte et de pratique des arts manuels : peinture, dessin, origami, poterie, art de l’animation…"
+  },  
+  {
+    "nom": "Cap Efrei",
+    "image": "CapEfrei.jpg",
+    "description": "L’association de voile de l’Efrei, ouverte aux débutants comme aux passionnés, organise des week-ends en Bretagne et participe à de nombreuses régates."
+  },
+  {
+    "nom": "CTfrei",
+    "image": "CTfrei-150x150.png",
+    "description": "CTfrei initie les étudiants aux CTF (Capture The Flag) et à la cybersécurité. Elle participe à des CTF universitaires et forme une équipe pour la compétition InCyber."
+  },
+  {
+    "nom": "Efrei Chefs",
+    "image": "Efrei_chefs-150x150.png",
+    "description": "Rejoindre Efrei chefs, c’est cuisiner pour soi et pour les autres lors d’ateliers ou d’événements inter-associatifs, passer de bons moments et partager sa passion."
+  },
+  {
+    "nom": "Efrei Sport Climbing",
+    "image": "EfreiSportClimbing-300x184.png",
+    "description": "C’est l’association d’escalade, ouverte aux débutants comme aux confirmés. Elle propose de grimper dans la salle Antrebloc mais aussi de participer à des compétitions."
+  },
+  {
+    "nom": "HikEfrei",
+    "image": "Hikefrei.svg",
+    "description": "C’est le club dédié à la randonné, au bivouac et à la découverte de la nature. Amoureux de la nature ou sportifs, tous les étudiants sont les bienvenus."
+  },
+  {
+    "nom": "ICE",
+    "image": "Ice-2-300x250.jpg",
+    "description": "ICE (Innovation, Conception, Évolution) rassemble les passionnés de nouvelles technologies autour de projets innovants : création d’une glacière connectée, table d’air hockey ou encore supercalculateur…"
+  },
+  {
+    "nom": "Le Bureau Des Étudiants",
+    "image": "BDE-Generique-Paris.svg",
+    "description": "Élu chaque année après une campagne intense et festive, le BDE représente les étudiants, fédère les 65 associations et anime la vie de campus tout au long de l’année."
+  },
+  {
+    "nom": "WEI",
+    "image": "WEI-Efrei-1-300x207.png",
+    "description": "Durant tout septembre, l’équipe accueille les nouveaux étudiants et anime le campus pour faciliter leur intégration dans l’école. Le WEI organise aussi le week-end d’intégration, point fort de la rentrée."
+  }
+]
