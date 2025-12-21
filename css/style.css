@@ -38,7 +38,6 @@ nav > .nav {
 
 footer {
     background-color: #455F85;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -59,3 +58,7 @@ footer > a {
     padding: 10px;
 }
 
+h1 {
+    text-align: center;
+    color: #163767;  
+}

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <script type="text/javascript" src="../js/enseignant.js"></script>
+    <link rel="stylesheet" href="../css/enseignant.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
 <body onload="fetchJSON('../json/enseignant.json')">
@@ -18,8 +20,8 @@
         </nav>
     </header>
     <section id="core">
-        <div>Équipe enseignante</div>
-        <section>
+        <h1>Équipe enseignante</h1>
+        <section id="filters">
             <div>
                 Filtre par nom
                 <input type="text" id="filter-nom">
@@ -29,8 +31,7 @@
                 <input type="text" id="filter-matiere">
             </div>
         </section>
-        <section id="enseignant">
-
+        <section id="enseignants">
         </section>
     </section>
     <footer>

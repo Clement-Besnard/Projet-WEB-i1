@@ -22,16 +22,23 @@ function fetchJSON(url) {
 }
 
 function showEnseignant(list) {
-    var sectionEnseignant = document.getElementById("enseignant");
+    var sectionEnseignant = document.getElementById("enseignants");
     sectionEnseignant.innerHTML = "";
-    list.forEach(element => {
+    const sortedList = [...list].sort((a, b) => a.nom.localeCompare(b.nom));
+    sortedList.forEach(element => {
         var newEnseignant = document.createElement("div");
         var img = document.createElement("img");
-        img.src = "../img/default_enseignant.jpg";
+        img.className = "photoprofil"
+        img.src = element.image ? "../img/enseignants/" + element.image : "../img/default_enseignant.jpg";
         newEnseignant.appendChild(img);
         var info = document.createElement("span");
-        info.textContent = element.nom + " (" + element.matières.join(", ") + ")";
+        info.innerHTML = element.nom
         newEnseignant.appendChild(info);
+        var matiere = document.createElement("span");
+        matiere.innerHTML = "matières :<br> - " + element.matières.join("<br> - ") + "";
+        matiere.className = "matiere";
+        newEnseignant.appendChild(matiere);
+        newEnseignant.className = "enseignant"
         sectionEnseignant.appendChild(newEnseignant);
     });
 }
