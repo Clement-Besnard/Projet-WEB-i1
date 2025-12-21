@@ -1,0 +1,53 @@
+#core {
+    flex: 1;
+}
+
+#enseignants {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 5%;
+    margin-bottom: 5%;
+    gap: 32px 16px;
+}
+
+.enseignant {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #455F85;
+    color: white;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.28), 0 3px 8px 0 rgba(0,0,0,0.16);
+}
+
+.photoprofil {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#filters > div {
+    color: #163767;
+    font-weight: bold;
+}
+
+#filters input {
+    border-radius: 20px;
+    height: 120%;
+}
+
+.matiere {
+    text-align: left;
+    margin-inline: 10px;
+}

@@ -1,0 +1,83 @@
+{
+    "enseignants": [
+        {
+            "nom": "Federico Zalamea",
+            "matières": ["Mathématiques", "Physique"],
+            "image": "federico_zalamea.jpeg"
+        },
+        {
+            "nom": "Gabriel Morgado",
+            "matières": ["Physique"],
+            "image": "gabriel_morgado.jpeg"
+        },
+        {
+            "nom": "Mondher Maddouri",
+            "matières": ["Data"],
+            "image": "mondher_maddouri.jpg"
+        },
+        {
+            "nom": "Dina Serhal Fakih",
+            "matières": ["Physique", "Electronique"],
+            "image": "dina_serhal_fakih.jpg"
+        },
+        {
+            "nom": "Malika Charrad",
+            "matières": ["Data"],
+            "image": "malika_charrad.jpg"
+        },
+        {
+            "nom": "Cherifa Ben Khelil",
+            "matières": ["Informatique"],
+            "image": "cherifa_ben_khelil.jpg"
+        },
+        {
+            "nom": "Ziad Adem",
+            "matières": ["Data"],
+            "image": "ziad_adem.jpg"
+        },
+        {
+            "nom": "Sophie Martin",
+            "matières": ["Mathématiques"]
+        },
+        {
+            "nom": "Jean Dupuis",
+            "matières": ["Physique", "Chimie"]
+        },
+        {
+            "nom": "Claire Dubois",
+            "matières": ["Informatique"]
+        },
+        {
+            "nom": "Antoine Lefevre",
+            "matières": ["Electronique", "Physique"]
+        },
+        {
+            "nom": "Isabelle Petit",
+            "matières": ["Data"]
+        },
+        {
+            "nom": "Marc Girard",
+            "matières": ["Mathématiques", "Physique"]
+        },
+        {
+            "nom": "Julie Moreau",
+            "matières": ["Informatique"]
+        },
+        {
+            "nom": "Nicolas Laurent",
+            "matières": ["Chimie"]
+        },
+        {
+            "nom": "Camille Robert",
+            "matières": ["Physique", "Mathématiques"]
+        },
+        {
+            "nom": "Lucie Bernard",
+            "matières": ["Electronique"]
+        },
+        {
+            "nom": "Pierre Fontaine",
+            "matières": ["Data", "Informatique"]
+        }
+    ]
+}

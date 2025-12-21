@@ -1,5 +1,13 @@
-body {
+html, body {
+    height: 100%;
+    padding: 0;
     margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
@@ -38,7 +46,6 @@ nav > .nav {
 
 footer {
     background-color: #455F85;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -46,6 +53,7 @@ footer {
     text-align: center;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
     z-index: 100;
+    margin-top: auto;
 }
 
 footer > a {
@@ -59,3 +67,7 @@ footer > a {
     padding: 10px;
 }
 
+h1 {
+    text-align: center;
+    color: #163767;  
+}

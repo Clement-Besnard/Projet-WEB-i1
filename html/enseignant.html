@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/enseignant.js"></script>
+    <link rel="stylesheet" href="../css/enseignant.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="fetchJSON('../json/enseignant.json')">
     <header>
         <a href="./accueil.html"><img src="../img/logo_efrei.png"></a>
         <nav>
@@ -16,6 +19,21 @@
             <a href="./contact.html" class="nav">Contact</a>
         </nav>
     </header>
+    <section id="core">
+        <h1>Équipe enseignante</h1>
+        <section id="filters">
+            <div>
+                Filtre par nom
+                <input type="text" id="filter-nom">
+            </div>
+            <div>
+                Filtre par matière
+                <input type="text" id="filter-matiere">
+            </div>
+        </section>
+        <section id="enseignants">
+        </section>
+    </section>
     <footer>
         <a href="./apropos.html">À propos</a>
     </footer>
