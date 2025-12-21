@@ -1,0 +1,38 @@
+#Accueil img{
+    width: 100%;
+}
+
+#Target {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Target p {
+    padding-inline: 5%;
+    font-size: 25px;
+}
+
+#Target span {
+    font-weight: bold;
+}
+
+#Target img {
+    margin-block: 1%;
+    margin-inline: 5%;
+    width: 80rem;
+}
+
+#events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.event {
+    background-color: #163767;
+    color: white;
+    border-radius: 50px;
+    padding: 2%;
+    margin: 2%;
+}
